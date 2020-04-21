@@ -3,8 +3,6 @@ terraform {
 }
 
 provider "aws" {
-  ami           = "ami-0735ea082a1534cac"
-  instance_type = "t2.micro"
   version = "> = 2.27.0"
 }
 
